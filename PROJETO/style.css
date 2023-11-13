@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background-color:red;
+  /*
+  background-image: url(./assents/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; */
+  
+  background: url(./assents/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+#container {
+  width: 360px;
+  /* border: 1px solid red; "ja posso remover a borda" */
+  
+  /* margin-top: 56px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto; " o comando a baixo reprenseta a ordem dessa marcação. */
+
+  margin: 56px auto 0px auto;
+}
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
