@@ -11,6 +11,7 @@
   --surface-color-hover: rgba(255, 255, 255, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assents/moon-stars.svg);
+  --border-color-profile: white;
 }
 .light {
   --text-color: black;
@@ -20,6 +21,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.2);
   --switch-bg-url: url(assents/sun.svg);
+  --border-color-profile: rgb(43, 41, 41);
 }
 
 /* Body */
@@ -64,7 +66,7 @@ body * {
 
 #profile img {
   width: 112px;
-  border: 2px solid rgb(32, 161, 64);
+  border: 2px solid var(--border-color-profile);
   border-radius: 9999px;
 }
 
