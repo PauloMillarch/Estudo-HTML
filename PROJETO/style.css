@@ -44,7 +44,7 @@ body * {
 /*Container */
 
 #container {
-  width: 360px;
+  width: 100%; max-width: 360px;
   /* border: 1px solid red; "ja posso remover a borda" */
   
   /* margin-top: 56px;
